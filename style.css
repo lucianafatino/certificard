@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+	background-color: #e29bef;
+	font-family: 'Roboto', sans-serif; 
+}
+
+section{
+	-webkit-box-shadow: 2px 10px 13px 7px rgba(0,0,0,0.37); 
+	box-shadow: 2px 10px 13px 7px rgba(0,0,0,0.37);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 15px;
+	max-width: 500px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+section h1 {
+	font-size: 20px;
+	text-align: center;
+}
+
+header{
+	background-image: url('https://thumbs.dreamstime.com/b/rebordo-da-borboleta-clara-de-patel-no-conector-horizontal-composi%C3%A7%C3%A3o-elegante-e-simples-do-vetor-mosca-silhueta-187854628.jpg');
+	background-size: cover;
+	height: 80px;
+	border-radius: 5px;
+}
+
+div{
+	padding: 15px;
+	background-color: #e4e7ec;
+	border-radius: 5px;	
+}
+
+div h2{
+	text-align: center;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	transform: translateY(-50%);
+	border: 8px solid white;
+}
+
+ol{
+	list-style-type: none;
+}
+
+ol li a{
+	 text-decoration: none;
+	 color: black;
+}
